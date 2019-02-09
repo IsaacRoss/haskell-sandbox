@@ -51,4 +51,4 @@ calculate s =
     ret = parse parseInput "" s
 
 main :: IO ()
-main = interact (unlines . (map calculate) . lines)
+main = interact $ unlines . (map calculate) . lines
